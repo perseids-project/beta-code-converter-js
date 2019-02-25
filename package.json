@@ -3,14 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "perseids-react-components": "^0.0.10",
+    "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint --ext=js --ext=jsx .",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
