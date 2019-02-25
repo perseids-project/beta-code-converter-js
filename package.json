@@ -1,7 +1,8 @@
 {
   "name": "beta-code-js",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "https://perseids-project.github.io/beta-code-js/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "perseids-react-components": "^0.0.10",
@@ -16,10 +17,14 @@
     "gh-pages": "^2.0.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn deploy-github && yarn deploy-perseids",
+    "predeploy-github": "yarn run build",
+    "deploy-github": "yarn run cleanup && gh-pages -d build",
+    "predeploy-perseids": "PUBLIC_URL='/beta-code' yarn run build",
+    "deploy-perseids": "yarn run cleanup && gh-pages -d build -b perseids-build",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "lint": "eslint --ext=js --ext=jsx .",
     "eject": "react-scripts eject"
