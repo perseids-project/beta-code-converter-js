@@ -42,14 +42,14 @@ class Converter extends Component {
         <div className="row pt-4 mb-3">
           <div className="col-12 text-center">
             <h1 className="h3 font-weight-normal">
-              English-Greek Dictionary
+              Greek Beta Code Converter
             </h1>
           </div>
         </div>
 
         <div className={`row ${styles.row}`}>
           <div className="col-6">
-            <h4>Greek Unicode</h4>
+            <h4 className="text-center">Greek Unicode</h4>
             <textarea
               className={`${styles.textarea} form-control input-lg`}
               type="text"
@@ -64,7 +64,7 @@ class Converter extends Component {
           </div>
 
           <div className="col-6">
-            <h4>Beta Code</h4>
+            <h4 className="text-center">Beta Code</h4>
             <textarea
               className={`${styles.textarea} form-control input-lg`}
               type="text"
