@@ -15,9 +15,7 @@ const App = () => (
       <main role="main" className={styles.main}>
         <div className={`container ${styles.container}`}>
           <Switch>
-            <Route exact path="/b/:beta?/" component={Converter} />
-            <Route exact path="/u/:unicode?/" component={Converter} />
-            <Route exact path="*" component={Converter} />
+            <Route exact path="/" component={Converter} />
           </Switch>
         </div>
       </main>

@@ -4,50 +4,39 @@ import { greekToBetaCode, betaCodeToGreek } from 'beta-code-js';
 import styles from './Converter.module.css';
 
 class Converter extends Component {
+  state = {
+    beta: '',
+    unicode: '',
+  }
+
   constructor(props) {
     super(props);
 
     this.handleBetaChange = this.handleBetaChange.bind(this);
     this.handleUnicodeChange = this.handleUnicodeChange.bind(this);
-    this.unicodeText = this.unicodeText.bind(this);
-    this.betaCodeText = this.betaCodeText.bind(this);
   }
 
   handleBetaChange(event) {
     const { value } = event.target;
-    const { history } = this.props;
 
-    history.push(`/b/${encodeURIComponent(value)}`);
+    this.setState({
+      beta: value,
+      unicode: betaCodeToGreek(value),
+    });
   }
 
   handleUnicodeChange(event) {
     const { value } = event.target;
-    const { history } = this.props;
 
-    history.push(`/u/${encodeURIComponent(value)}`);
-  }
-
-  unicodeText() {
-    const { match } = this.props;
-
-    if (match && match.params && ('beta' in match.params)) {
-      return betaCodeToGreek(decodeURIComponent(match.params.beta || ''));
-    }
-
-    return decodeURIComponent(match.params.unicode || '');
-  }
-
-  betaCodeText() {
-    const { match } = this.props;
-
-    if (match && match.params && ('unicode' in match.params)) {
-      return greekToBetaCode(decodeURIComponent(match.params.unicode || ''));
-    }
-
-    return decodeURIComponent(match.params.beta || '');
+    this.setState({
+      beta: greekToBetaCode(value),
+      unicode: value,
+    });
   }
 
   render() {
+    const { beta, unicode } = this.state;
+
     return (
       <React.Fragment>
         <div className="row pt-4 mb-3">
@@ -70,7 +59,7 @@ class Converter extends Component {
               autoCapitalize="off"
               spellCheck="false"
               onChange={this.handleUnicodeChange}
-              value={this.unicodeText()}
+              value={unicode}
             />
           </div>
 
@@ -85,7 +74,7 @@ class Converter extends Component {
               autoCapitalize="off"
               spellCheck="false"
               onChange={this.handleBetaChange}
-              value={this.betaCodeText()}
+              value={beta}
             />
           </div>
         </div>
