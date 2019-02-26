@@ -1,0 +1,9 @@
+.row {
+  /* 81px is the height of the title text */
+  height: calc(100% - 81px) !important;
+}
+
+.textarea {
+  /* 60px is the height of the subtitle title text plus 24px for "padding" */
+  height: calc(100% - 60px) !important;
+}

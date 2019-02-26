@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://perseids-project.github.io/beta-code-js/",
   "dependencies": {
+    "beta-code-js": "^1.0.6",
     "bootstrap": "^4.3.1",
     "perseids-react-components": "^0.0.10",
     "prop-types": "^15.7.2",

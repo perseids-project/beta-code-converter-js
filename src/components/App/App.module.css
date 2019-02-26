@@ -1,0 +1,12 @@
+.main {
+  /* 134px is the height of the header + the footer */
+  height: calc(100vh - 134px);
+
+  /* 72px is the height of just the header */
+  /* (the footer is not visible on such a small height) */
+  min-height: calc(500px - 72px);
+}
+
+.container {
+  height: 100%;
+}

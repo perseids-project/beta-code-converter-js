@@ -2,6 +2,8 @@ import React from 'react';
 import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import styles from './App.module.css';
+
 import Converter from '../Converter';
 
 const App = () => (
@@ -10,12 +12,12 @@ const App = () => (
       <PerseidsHeader>
         Greek Beta Code Converter
       </PerseidsHeader>
-      <main role="main">
-        <div className="container">
+      <main role="main" className={styles.main}>
+        <div className={`container ${styles.container}`}>
           <Switch>
-            <Route exact path="/" component={Converter} />
-            <Route exact path="/b/:string/" component={Converter} />
-            <Route exact path="/u/:string/" component={Converter} />
+            <Route exact path="/b/:beta?/" component={Converter} />
+            <Route exact path="/u/:unicode?/" component={Converter} />
+            <Route exact path="*" component={Converter} />
           </Switch>
         </div>
       </main>
@@ -28,4 +30,3 @@ const App = () => (
 );
 
 export default App;
-
