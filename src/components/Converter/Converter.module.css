@@ -6,4 +6,7 @@
 .textarea {
   /* 60px is the height of the subtitle title text plus 24px for "padding" */
   height: calc(100% - 60px) !important;
+
+  font-family: Tinos, serif;
+  font-size: 1.2rem !important;
 }

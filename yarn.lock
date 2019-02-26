@@ -9514,6 +9514,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-tinos@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-tinos/-/typeface-tinos-0.0.54.tgz#a19aa02ae13ef66e13f75313420883dbf10889b8"
+  integrity sha512-MRedIQFj34TKwYK3+4VTxFcrwWijkxqMKyaHPj3jX3k/B60AtvEvyO1bVM5cJF4K2W6xnGTVM+3yHKkS1nbShw==
+
 uglify-js@3.4.x, uglify-js@^3.1.4:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.9.tgz#af02f180c1207d76432e473ed24a28f4a782bae3"
