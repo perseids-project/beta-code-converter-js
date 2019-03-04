@@ -49,7 +49,16 @@ class Converter extends Component {
 
         <div className={`row ${styles.row}`}>
           <div className="col-6">
-            <h4 className="text-center">Greek Unicode</h4>
+            <div className="d-block d-sm-none">
+              <h4 className="text-center">
+                Unicode
+              </h4>
+            </div>
+            <div className="d-none d-sm-block">
+              <h4 className="text-center">
+                 Greek Unicode
+              </h4>
+            </div>
             <textarea
               className={`${styles.textarea} form-control input-lg`}
               type="text"
