@@ -1,6 +1,6 @@
 .row {
   /* 81px is the height of the title text */
-  height: calc(100% - 81px) !important;
+  height: calc(100% - 142.1px) !important; 
 }
 
 .textarea {

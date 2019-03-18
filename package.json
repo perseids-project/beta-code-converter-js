@@ -12,10 +12,12 @@
     "perseids-react-components": "^0.0.10",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
+    "react-clipboard.js": "^2.0.5",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
-    "typeface-tinos": "^0.0.54"
+    "typeface-tinos": "^0.0.54",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "deploy": "yarn deploy-github && yarn deploy-perseids",
