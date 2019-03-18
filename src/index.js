@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
-import "typeface-tinos";
+import 'typeface-tinos';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'perseids-react-components/build/css/index.css';
