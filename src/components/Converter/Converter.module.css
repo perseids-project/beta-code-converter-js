@@ -1,6 +1,7 @@
 .row {
   /* 81px is the height of the title text */
-  height: calc(100% - 81px) !important;
+  /* 61.1px is the height of buttons used at the bottom*/
+  height: calc(100% - 142.1px) !important; 
 }
 
 .textarea {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { greekToBetaCode, betaCodeToGreek } from 'beta-code-js';
+import Clipboard from 'react-clipboard.js';
 
 import styles from './Converter.module.css';
 
@@ -60,7 +61,7 @@ class Converter extends Component {
               </h4>
             </div>
             <textarea
-              className={`${styles.textarea} form-control input-lg`}
+              className={`${styles.textarea} form-control input-lg clipboard-target-unicode`}
               type="text"
               placeholder="μῆνιν ἄειδε θεὰ ..."
               autoComplete="off"
@@ -75,7 +76,7 @@ class Converter extends Component {
           <div className="col-6">
             <h4 className="text-center">Beta Code</h4>
             <textarea
-              className={`${styles.textarea} form-control input-lg`}
+              className={`${styles.textarea} form-control input-lg clipboard-target-betacode`}
               type="text"
               placeholder="mh=nin a)/eide qea\ ..."
               autoComplete="off"
@@ -87,10 +88,29 @@ class Converter extends Component {
             />
           </div>
         </div>
+        <div className="row">
+          <div className="col-6">
+            <Clipboard
+              button-type="button"
+              className="btn btn-block btn-success mb-4"
+              data-clipboard-target=".clipboard-target-unicode"
+            >
+              Copy to Clipboard
+            </Clipboard>
+          </div>
+          <div className="col-6">
+            <Clipboard
+              button-type="button"
+              className="btn btn-block btn-success mb-4"
+              data-clipboard-target=".clipboard-target-betacode"
+            >
+                Copy to Clipboard
+            </Clipboard>
+          </div>
+        </div>
       </React.Fragment>
     );
   }
 }
-
 
 export default Converter;
