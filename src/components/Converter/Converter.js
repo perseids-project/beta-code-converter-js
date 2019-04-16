@@ -92,7 +92,7 @@ class Converter extends Component {
           <div className="col-6">
             <Clipboard
               button-type="button"
-              className="btn btn-block btn-success mb-4"
+              className="btn btn-block btn-success mb-4 mt-2"
               data-clipboard-target=".clipboard-target-unicode"
             >
               Copy to Clipboard
@@ -101,7 +101,7 @@ class Converter extends Component {
           <div className="col-6">
             <Clipboard
               button-type="button"
-              className="btn btn-block btn-success mb-4"
+              className="btn btn-block btn-success mb-4 mt-2"
               data-clipboard-target=".clipboard-target-betacode"
             >
                 Copy to Clipboard

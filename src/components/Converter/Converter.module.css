@@ -1,11 +1,11 @@
 .row {
-	/* 81+61.1=142.1 px where 81 is the height of the title and 61.1 is the height of the buttons*/
-  height: calc(100% - 142.1px) !important; 
+  /* 81 + 70 = 151 px where 81 is the height of the title and 70 is the height of the buttons */
+  height: calc(100% - 151px) !important;
 }
 
 .textarea {
-  /* 60px is the height of the subtitle title text plus 24px for "padding" */
-  height: calc(100% - 60px) !important;
+  /* 36px is the height of the subtitle title text */
+  height: calc(100% - 36px) !important;
 
   font-family: Tinos, serif;
   font-size: 1.2rem !important;
