@@ -1,6 +1,5 @@
 .row {
-  /* 81px is the height of the title text */
-  /* 61.1px is the height of buttons used at the bottom*/
+	/* 81+61.1=142.1 px where 81 is the height of the title and 61.1 is the height of the buttons*/
   height: calc(100% - 142.1px) !important; 
 }
 
