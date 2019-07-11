@@ -1,16 +1,18 @@
 {
-  "main.css": "/beta-code/static/css/main.d3d16b21.chunk.css",
-  "main.js": "/beta-code/static/js/main.4e421996.chunk.js",
-  "main.js.map": "/beta-code/static/js/main.4e421996.chunk.js.map",
-  "runtime~main.js": "/beta-code/static/js/runtime~main.4eb90415.js",
-  "runtime~main.js.map": "/beta-code/static/js/runtime~main.4eb90415.js.map",
-  "static/css/2.0fe253b5.chunk.css": "/beta-code/static/css/2.0fe253b5.chunk.css",
-  "static/js/2.ca4455ae.chunk.js": "/beta-code/static/js/2.ca4455ae.chunk.js",
-  "static/js/2.ca4455ae.chunk.js.map": "/beta-code/static/js/2.ca4455ae.chunk.js.map",
-  "index.html": "/beta-code/index.html",
-  "precache-manifest.be8f47fcf6e6704abf2c58aeb312097e.js": "/beta-code/precache-manifest.be8f47fcf6e6704abf2c58aeb312097e.js",
-  "service-worker.js": "/beta-code/service-worker.js",
-  "static/css/2.0fe253b5.chunk.css.map": "/beta-code/static/css/2.0fe253b5.chunk.css.map",
-  "static/css/main.d3d16b21.chunk.css.map": "/beta-code/static/css/main.d3d16b21.chunk.css.map",
-  "static/media/index.css": "/beta-code/static/media/tinos-latin-700italic.add6b494.woff2"
+  "files": {
+    "main.css": "/beta-code/static/css/main.fc620751.chunk.css",
+    "main.js": "/beta-code/static/js/main.a1285002.chunk.js",
+    "main.js.map": "/beta-code/static/js/main.a1285002.chunk.js.map",
+    "runtime~main.js": "/beta-code/static/js/runtime~main.50c44685.js",
+    "runtime~main.js.map": "/beta-code/static/js/runtime~main.50c44685.js.map",
+    "static/css/2.d7c296e5.chunk.css": "/beta-code/static/css/2.d7c296e5.chunk.css",
+    "static/js/2.9b5c8f07.chunk.js": "/beta-code/static/js/2.9b5c8f07.chunk.js",
+    "static/js/2.9b5c8f07.chunk.js.map": "/beta-code/static/js/2.9b5c8f07.chunk.js.map",
+    "index.html": "/beta-code/index.html",
+    "precache-manifest.cf0f1e37304ff73e2f179b1e016237fe.js": "/beta-code/precache-manifest.cf0f1e37304ff73e2f179b1e016237fe.js",
+    "service-worker.js": "/beta-code/service-worker.js",
+    "static/css/2.d7c296e5.chunk.css.map": "/beta-code/static/css/2.d7c296e5.chunk.css.map",
+    "static/css/main.fc620751.chunk.css.map": "/beta-code/static/css/main.fc620751.chunk.css.map",
+    "static/media/index.css": "/beta-code/static/media/tinos-latin-700italic.ec035d3e.woff"
+  }
 }
