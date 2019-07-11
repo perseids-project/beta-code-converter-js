@@ -1,16 +1,18 @@
 {
-  "main.css": "/beta-code-js/static/css/main.d3d16b21.chunk.css",
-  "main.js": "/beta-code-js/static/js/main.766a97d2.chunk.js",
-  "main.js.map": "/beta-code-js/static/js/main.766a97d2.chunk.js.map",
-  "runtime~main.js": "/beta-code-js/static/js/runtime~main.52b31a41.js",
-  "runtime~main.js.map": "/beta-code-js/static/js/runtime~main.52b31a41.js.map",
-  "static/css/2.04c9a3b7.chunk.css": "/beta-code-js/static/css/2.04c9a3b7.chunk.css",
-  "static/js/2.115ee11a.chunk.js": "/beta-code-js/static/js/2.115ee11a.chunk.js",
-  "static/js/2.115ee11a.chunk.js.map": "/beta-code-js/static/js/2.115ee11a.chunk.js.map",
-  "index.html": "/beta-code-js/index.html",
-  "precache-manifest.de6a1fa86b5c018db0c5e62cd4ad719c.js": "/beta-code-js/precache-manifest.de6a1fa86b5c018db0c5e62cd4ad719c.js",
-  "service-worker.js": "/beta-code-js/service-worker.js",
-  "static/css/2.04c9a3b7.chunk.css.map": "/beta-code-js/static/css/2.04c9a3b7.chunk.css.map",
-  "static/css/main.d3d16b21.chunk.css.map": "/beta-code-js/static/css/main.d3d16b21.chunk.css.map",
-  "static/media/index.css": "/beta-code-js/static/media/tinos-latin-700italic.add6b494.woff2"
+  "files": {
+    "main.css": "/beta-code-js/static/css/main.fc620751.chunk.css",
+    "main.js": "/beta-code-js/static/js/main.c42dbcf7.chunk.js",
+    "main.js.map": "/beta-code-js/static/js/main.c42dbcf7.chunk.js.map",
+    "runtime~main.js": "/beta-code-js/static/js/runtime~main.7b0bf517.js",
+    "runtime~main.js.map": "/beta-code-js/static/js/runtime~main.7b0bf517.js.map",
+    "static/css/2.f67d35fd.chunk.css": "/beta-code-js/static/css/2.f67d35fd.chunk.css",
+    "static/js/2.9b5c8f07.chunk.js": "/beta-code-js/static/js/2.9b5c8f07.chunk.js",
+    "static/js/2.9b5c8f07.chunk.js.map": "/beta-code-js/static/js/2.9b5c8f07.chunk.js.map",
+    "index.html": "/beta-code-js/index.html",
+    "precache-manifest.7b455932a921206cd7a1758431afae5e.js": "/beta-code-js/precache-manifest.7b455932a921206cd7a1758431afae5e.js",
+    "service-worker.js": "/beta-code-js/service-worker.js",
+    "static/css/2.f67d35fd.chunk.css.map": "/beta-code-js/static/css/2.f67d35fd.chunk.css.map",
+    "static/css/main.fc620751.chunk.css.map": "/beta-code-js/static/css/main.fc620751.chunk.css.map",
+    "static/media/index.css": "/beta-code-js/static/media/tinos-latin-700italic.ec035d3e.woff"
+  }
 }
