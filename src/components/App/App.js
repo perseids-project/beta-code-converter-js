@@ -8,7 +8,7 @@ import Converter from '../Converter';
 
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
-    <React.Fragment>
+    <>
       <PerseidsHeader>
         Greek Beta Code Converter
       </PerseidsHeader>
@@ -23,7 +23,7 @@ const App = () => (
         report="https://github.com/perseids-project/beta-code-js"
         github="https://github.com/perseids-project/beta-code-js/issues"
       />
-    </React.Fragment>
+    </>
   </Router>
 );
 

@@ -5,13 +5,13 @@ import Clipboard from 'react-clipboard.js';
 import styles from './Converter.module.css';
 
 class Converter extends Component {
-  state = {
-    beta: '',
-    unicode: '',
-  }
-
   constructor(props) {
     super(props);
+
+    this.state = {
+      beta: '',
+      unicode: '',
+    };
 
     this.handleBetaChange = this.handleBetaChange.bind(this);
     this.handleUnicodeChange = this.handleUnicodeChange.bind(this);
@@ -39,7 +39,7 @@ class Converter extends Component {
     const { beta, unicode } = this.state;
 
     return (
-      <React.Fragment>
+      <>
         <div className="row pt-4 mb-3">
           <div className="col-12 text-center">
             <h1 className="h3 font-weight-normal">
@@ -108,7 +108,7 @@ class Converter extends Component {
             </Clipboard>
           </div>
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }
