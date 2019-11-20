@@ -2,6 +2,8 @@ import React from 'react';
 import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import I18n from '../I18n';
+
 import styles from './App.module.css';
 
 import Converter from '../Converter';
@@ -10,7 +12,7 @@ const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
     <>
       <PerseidsHeader>
-        Greek Beta Code Converter
+        <I18n t="header.title" />
       </PerseidsHeader>
       <main role="main" className={styles.main}>
         <div className={`container ${styles.container}`}>

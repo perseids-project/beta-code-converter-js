@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { shape, string } from 'prop-types';
 import { greekToBetaCode, betaCodeToGreek } from 'beta-code-js';
 import Clipboard from 'react-clipboard.js';
+
+import I18n from '../I18n';
 
 import styles from './Converter.module.css';
 
@@ -37,13 +40,14 @@ class Converter extends Component {
 
   render() {
     const { beta, unicode } = this.state;
+    const { location } = this.props;
 
     return (
       <>
         <div className="row pt-4 mb-3">
           <div className="col-12 text-center">
             <h1 className="h3 font-weight-normal">
-              Greek Beta Code Converter
+              <I18n t="converter.title" />
             </h1>
           </div>
         </div>
@@ -52,18 +56,18 @@ class Converter extends Component {
           <div className="col-6">
             <div className="d-block d-sm-none">
               <h4 className="text-center">
-                Unicode
+                <I18n t="converter.smallScreenUnicode" />
               </h4>
             </div>
             <div className="d-none d-sm-block">
               <h4 className="text-center">
-                 Greek Unicode
+                <I18n t="converter.unicode" />
               </h4>
             </div>
             <textarea
               className={`${styles.textarea} form-control input-lg clipboard-target-unicode`}
               type="text"
-              placeholder="μῆνιν ἄειδε θεὰ ..."
+              placeholder={I18n.getTranslation(location, 'converter.placeholderUnicode')}
               autoComplete="off"
               autoCorrect="off"
               autoCapitalize="off"
@@ -74,11 +78,13 @@ class Converter extends Component {
           </div>
 
           <div className="col-6">
-            <h4 className="text-center">Beta Code</h4>
+            <h4 className="text-center">
+              <I18n t="converter.betacode" />
+            </h4>
             <textarea
               className={`${styles.textarea} form-control input-lg clipboard-target-betacode`}
               type="text"
-              placeholder="mh=nin a)/eide qea\ ..."
+              placeholder={I18n.getTranslation(location, 'converter.placeholderBetacode')}
               autoComplete="off"
               autoCorrect="off"
               autoCapitalize="off"
@@ -95,7 +101,7 @@ class Converter extends Component {
               className="btn btn-block btn-success mb-4 mt-2"
               data-clipboard-target=".clipboard-target-unicode"
             >
-              Copy to Clipboard
+              <I18n t="converter.copy" />
             </Clipboard>
           </div>
           <div className="col-6">
@@ -104,7 +110,7 @@ class Converter extends Component {
               className="btn btn-block btn-success mb-4 mt-2"
               data-clipboard-target=".clipboard-target-betacode"
             >
-                Copy to Clipboard
+              <I18n t="converter.copy" />
             </Clipboard>
           </div>
         </div>
@@ -112,5 +118,11 @@ class Converter extends Component {
     );
   }
 }
+
+Converter.propTypes = {
+  location: shape({
+    search: string.isRequired,
+  }).isRequired,
+};
 
 export default Converter;
