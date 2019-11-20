@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e72efa32606f540b8014e812f77151a",
+    "revision": "edf8d9ad1591c056bea57d6da94cbf40",
     "url": "/beta-code-js/index.html"
   },
   {
-    "revision": "956e167e0e063fed59bc",
-    "url": "/beta-code-js/static/css/2.f67d35fd.chunk.css"
+    "revision": "9c85eaf7c242f5a57fb7",
+    "url": "/beta-code-js/static/css/2.d41d70c9.chunk.css"
   },
   {
-    "revision": "823bc3159345c03e4dfb",
+    "revision": "8e693efd0699f24ec2f1",
     "url": "/beta-code-js/static/css/main.fc620751.chunk.css"
   },
   {
-    "revision": "956e167e0e063fed59bc",
-    "url": "/beta-code-js/static/js/2.99268756.chunk.js"
+    "revision": "9c85eaf7c242f5a57fb7",
+    "url": "/beta-code-js/static/js/2.c5cfc238.chunk.js"
   },
   {
-    "revision": "823bc3159345c03e4dfb",
-    "url": "/beta-code-js/static/js/main.7a002c43.chunk.js"
+    "revision": "8e693efd0699f24ec2f1",
+    "url": "/beta-code-js/static/js/main.9e20f137.chunk.js"
   },
   {
-    "revision": "10ac6333d7bde7002d82",
-    "url": "/beta-code-js/static/js/runtime~main.18b63c1a.js"
+    "revision": "61888ef1a0933e5bc8f7",
+    "url": "/beta-code-js/static/js/runtime-main.dd84d932.js"
   },
   {
     "revision": "341b9a03a81b513c1696903e4b157870",
