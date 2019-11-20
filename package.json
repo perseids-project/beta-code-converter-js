@@ -15,6 +15,7 @@
     "react-clipboard.js": "^2.0.13",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
+    "react-router-i18n": "^0.1.2",
     "react-scripts": "3.1.1",
     "typeface-tinos": "^0.0.72"
   },
