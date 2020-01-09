@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/beta-code/static/css/main.fc620751.chunk.css",
-    "main.js": "/beta-code/static/js/main.f553bb7f.chunk.js",
-    "main.js.map": "/beta-code/static/js/main.f553bb7f.chunk.js.map",
-    "runtime-main.js": "/beta-code/static/js/runtime-main.c61a50c2.js",
-    "runtime-main.js.map": "/beta-code/static/js/runtime-main.c61a50c2.js.map",
-    "static/css/2.6445964b.chunk.css": "/beta-code/static/css/2.6445964b.chunk.css",
-    "static/js/2.c5cfc238.chunk.js": "/beta-code/static/js/2.c5cfc238.chunk.js",
-    "static/js/2.c5cfc238.chunk.js.map": "/beta-code/static/js/2.c5cfc238.chunk.js.map",
+    "main.js": "/beta-code/static/js/main.744cc824.chunk.js",
+    "main.js.map": "/beta-code/static/js/main.744cc824.chunk.js.map",
+    "runtime-main.js": "/beta-code/static/js/runtime-main.72806e6f.js",
+    "runtime-main.js.map": "/beta-code/static/js/runtime-main.72806e6f.js.map",
+    "static/css/2.d80d6cf1.chunk.css": "/beta-code/static/css/2.d80d6cf1.chunk.css",
+    "static/js/2.af1830b5.chunk.js": "/beta-code/static/js/2.af1830b5.chunk.js",
+    "static/js/2.af1830b5.chunk.js.map": "/beta-code/static/js/2.af1830b5.chunk.js.map",
     "index.html": "/beta-code/index.html",
-    "precache-manifest.19f6b6baabdeec600c16e4f1a8df8ba5.js": "/beta-code/precache-manifest.19f6b6baabdeec600c16e4f1a8df8ba5.js",
+    "precache-manifest.0be7269d1b4fe72d18ae9c904073fafd.js": "/beta-code/precache-manifest.0be7269d1b4fe72d18ae9c904073fafd.js",
     "service-worker.js": "/beta-code/service-worker.js",
-    "static/css/2.6445964b.chunk.css.map": "/beta-code/static/css/2.6445964b.chunk.css.map",
+    "static/css/2.d80d6cf1.chunk.css.map": "/beta-code/static/css/2.d80d6cf1.chunk.css.map",
     "static/css/main.fc620751.chunk.css.map": "/beta-code/static/css/main.fc620751.chunk.css.map",
+    "static/js/2.af1830b5.chunk.js.LICENSE": "/beta-code/static/js/2.af1830b5.chunk.js.LICENSE",
     "static/media/index.css": "/beta-code/static/media/tinos-latin-700italic.ec035d3e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c61a50c2.js",
-    "static/css/2.6445964b.chunk.css",
-    "static/js/2.c5cfc238.chunk.js",
+    "static/js/runtime-main.72806e6f.js",
+    "static/css/2.d80d6cf1.chunk.css",
+    "static/js/2.af1830b5.chunk.js",
     "static/css/main.fc620751.chunk.css",
-    "static/js/main.f553bb7f.chunk.js"
+    "static/js/main.744cc824.chunk.js"
   ]
 }
