@@ -1,22 +1,22 @@
 {
   "name": "beta-code-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "homepage": "https://perseids-project.github.io/beta-code-js/",
   "dependencies": {
     "beta-code-js": "^1.0.8",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-jest": "^23.0.4",
-    "gh-pages": "^2.1.1",
-    "perseids-react-components": "^0.2.0",
+    "eslint-plugin-jest": "^23.3.0",
+    "gh-pages": "^2.2.0",
+    "perseids-react-components": "^0.2.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-clipboard.js": "^2.0.16",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-router-i18n": "^0.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "3.3.0",
     "typeface-tinos": "^0.0.72"
   },
   "scripts": {
