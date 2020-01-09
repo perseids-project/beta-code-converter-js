@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/beta-code-js/static/css/main.fc620751.chunk.css",
-    "main.js": "/beta-code-js/static/js/main.9e20f137.chunk.js",
-    "main.js.map": "/beta-code-js/static/js/main.9e20f137.chunk.js.map",
-    "runtime-main.js": "/beta-code-js/static/js/runtime-main.dd84d932.js",
-    "runtime-main.js.map": "/beta-code-js/static/js/runtime-main.dd84d932.js.map",
-    "static/css/2.d41d70c9.chunk.css": "/beta-code-js/static/css/2.d41d70c9.chunk.css",
-    "static/js/2.c5cfc238.chunk.js": "/beta-code-js/static/js/2.c5cfc238.chunk.js",
-    "static/js/2.c5cfc238.chunk.js.map": "/beta-code-js/static/js/2.c5cfc238.chunk.js.map",
+    "main.js": "/beta-code-js/static/js/main.3542a441.chunk.js",
+    "main.js.map": "/beta-code-js/static/js/main.3542a441.chunk.js.map",
+    "runtime-main.js": "/beta-code-js/static/js/runtime-main.80849948.js",
+    "runtime-main.js.map": "/beta-code-js/static/js/runtime-main.80849948.js.map",
+    "static/css/2.0a9f8ec0.chunk.css": "/beta-code-js/static/css/2.0a9f8ec0.chunk.css",
+    "static/js/2.af1830b5.chunk.js": "/beta-code-js/static/js/2.af1830b5.chunk.js",
+    "static/js/2.af1830b5.chunk.js.map": "/beta-code-js/static/js/2.af1830b5.chunk.js.map",
     "index.html": "/beta-code-js/index.html",
-    "precache-manifest.ea553a2e1d2255f64c99b0b113b6fe00.js": "/beta-code-js/precache-manifest.ea553a2e1d2255f64c99b0b113b6fe00.js",
+    "precache-manifest.d39d91a45301f0c715baadcc30f928f2.js": "/beta-code-js/precache-manifest.d39d91a45301f0c715baadcc30f928f2.js",
     "service-worker.js": "/beta-code-js/service-worker.js",
-    "static/css/2.d41d70c9.chunk.css.map": "/beta-code-js/static/css/2.d41d70c9.chunk.css.map",
+    "static/css/2.0a9f8ec0.chunk.css.map": "/beta-code-js/static/css/2.0a9f8ec0.chunk.css.map",
     "static/css/main.fc620751.chunk.css.map": "/beta-code-js/static/css/main.fc620751.chunk.css.map",
+    "static/js/2.af1830b5.chunk.js.LICENSE": "/beta-code-js/static/js/2.af1830b5.chunk.js.LICENSE",
     "static/media/index.css": "/beta-code-js/static/media/tinos-latin-700italic.ec035d3e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd84d932.js",
-    "static/css/2.d41d70c9.chunk.css",
-    "static/js/2.c5cfc238.chunk.js",
+    "static/js/runtime-main.80849948.js",
+    "static/css/2.0a9f8ec0.chunk.css",
+    "static/js/2.af1830b5.chunk.js",
     "static/css/main.fc620751.chunk.css",
-    "static/js/main.9e20f137.chunk.js"
+    "static/js/main.3542a441.chunk.js"
   ]
 }
