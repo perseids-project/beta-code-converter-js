@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://perseids-project.github.io/beta-code-js/",
   "dependencies": {
-    "beta-code-js": "^1.0.8",
+    "beta-code-js": "^1.0.9",
     "bootstrap": "^4.4.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-jest": "^23.7.0",
