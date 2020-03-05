@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/beta-code/static/css/main.fc620751.chunk.css",
-    "main.js": "/beta-code/static/js/main.be061901.chunk.js",
-    "main.js.map": "/beta-code/static/js/main.be061901.chunk.js.map",
-    "runtime-main.js": "/beta-code/static/js/runtime-main.282ba6af.js",
-    "runtime-main.js.map": "/beta-code/static/js/runtime-main.282ba6af.js.map",
-    "static/css/2.b12ff5c5.chunk.css": "/beta-code/static/css/2.b12ff5c5.chunk.css",
-    "static/js/2.1d893b79.chunk.js": "/beta-code/static/js/2.1d893b79.chunk.js",
-    "static/js/2.1d893b79.chunk.js.map": "/beta-code/static/js/2.1d893b79.chunk.js.map",
+    "main.js": "/beta-code/static/js/main.7d394ce0.chunk.js",
+    "main.js.map": "/beta-code/static/js/main.7d394ce0.chunk.js.map",
+    "runtime-main.js": "/beta-code/static/js/runtime-main.c14542ec.js",
+    "runtime-main.js.map": "/beta-code/static/js/runtime-main.c14542ec.js.map",
+    "static/css/2.88f2e1f5.chunk.css": "/beta-code/static/css/2.88f2e1f5.chunk.css",
+    "static/js/2.ecec20d5.chunk.js": "/beta-code/static/js/2.ecec20d5.chunk.js",
+    "static/js/2.ecec20d5.chunk.js.map": "/beta-code/static/js/2.ecec20d5.chunk.js.map",
     "index.html": "/beta-code/index.html",
-    "precache-manifest.ef94aa62243838e0bec0d8c5ada397ee.js": "/beta-code/precache-manifest.ef94aa62243838e0bec0d8c5ada397ee.js",
+    "precache-manifest.e2cd250c87611562c3198c7a5b3748d9.js": "/beta-code/precache-manifest.e2cd250c87611562c3198c7a5b3748d9.js",
     "service-worker.js": "/beta-code/service-worker.js",
-    "static/css/2.b12ff5c5.chunk.css.map": "/beta-code/static/css/2.b12ff5c5.chunk.css.map",
+    "static/css/2.88f2e1f5.chunk.css.map": "/beta-code/static/css/2.88f2e1f5.chunk.css.map",
     "static/css/main.fc620751.chunk.css.map": "/beta-code/static/css/main.fc620751.chunk.css.map",
-    "static/js/2.1d893b79.chunk.js.LICENSE.txt": "/beta-code/static/js/2.1d893b79.chunk.js.LICENSE.txt",
+    "static/js/2.ecec20d5.chunk.js.LICENSE.txt": "/beta-code/static/js/2.ecec20d5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/beta-code/static/media/tinos-latin-700italic.ec035d3e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.282ba6af.js",
-    "static/css/2.b12ff5c5.chunk.css",
-    "static/js/2.1d893b79.chunk.js",
+    "static/js/runtime-main.c14542ec.js",
+    "static/css/2.88f2e1f5.chunk.css",
+    "static/js/2.ecec20d5.chunk.js",
     "static/css/main.fc620751.chunk.css",
-    "static/js/main.be061901.chunk.js"
+    "static/js/main.7d394ce0.chunk.js"
   ]
 }
