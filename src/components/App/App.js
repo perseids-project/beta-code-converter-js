@@ -24,6 +24,7 @@ const App = () => (
       <PerseidsFooter
         report="https://github.com/perseids-project/beta-code-js"
         github="https://github.com/perseids-project/beta-code-js/issues"
+        doi="10.5281/zenodo.3967309"
       />
     </>
   </Router>
