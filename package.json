@@ -1,8 +1,8 @@
 {
-  "name": "beta-code-js",
+  "name": "beta-code-converter-js",
   "version": "0.0.6",
   "private": true,
-  "homepage": "https://perseids-project.github.io/beta-code-js/",
+  "homepage": "https://perseids-project.github.io/beta-code-converter-js/",
   "dependencies": {
     "beta-code-js": "^2.0.1",
     "bootstrap": "^4.5.0",
