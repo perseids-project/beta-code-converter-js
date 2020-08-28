@@ -55,17 +55,22 @@ class Converter extends Component {
         <div className={`row ${styles.row}`}>
           <div className="col-6">
             <div className="d-block d-sm-none">
-              <h4 className="text-center">
-                <I18n t="converter.smallScreenUnicode" />
-              </h4>
+              <h2 className="text-center h4">
+                <label htmlFor="greek-unicode-input" className="mb-0">
+                  <I18n t="converter.smallScreenUnicode" />
+                </label>
+              </h2>
             </div>
             <div className="d-none d-sm-block">
-              <h4 className="text-center">
-                <I18n t="converter.unicode" />
-              </h4>
+              <h2 className="text-center h4">
+                <label htmlFor="greek-unicode-input" className="mb-0">
+                  <I18n t="converter.unicode" />
+                </label>
+              </h2>
             </div>
             <textarea
               className={`${styles.textarea} form-control input-lg clipboard-target-unicode`}
+              id="greek-unicode-input"
               type="text"
               placeholder={I18n.getTranslation(location, 'converter.placeholderUnicode')}
               autoComplete="off"
@@ -78,11 +83,14 @@ class Converter extends Component {
           </div>
 
           <div className="col-6">
-            <h4 className="text-center">
-              <I18n t="converter.betacode" />
-            </h4>
+            <h2 className="text-center h4">
+              <label htmlFor="beta-code-input" className="mb-0">
+                <I18n t="converter.betacode" />
+              </label>
+            </h2>
             <textarea
               className={`${styles.textarea} form-control input-lg clipboard-target-betacode`}
+              id="beta-code-input"
               type="text"
               placeholder={I18n.getTranslation(location, 'converter.placeholderBetacode')}
               autoComplete="off"
