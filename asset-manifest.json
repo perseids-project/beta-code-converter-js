@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/beta-code-converter-js/static/css/main.fc620751.chunk.css",
-    "main.js": "/beta-code-converter-js/static/js/main.ce5fa4f8.chunk.js",
-    "main.js.map": "/beta-code-converter-js/static/js/main.ce5fa4f8.chunk.js.map",
+    "main.js": "/beta-code-converter-js/static/js/main.0f4860af.chunk.js",
+    "main.js.map": "/beta-code-converter-js/static/js/main.0f4860af.chunk.js.map",
     "runtime-main.js": "/beta-code-converter-js/static/js/runtime-main.3ca1c283.js",
     "runtime-main.js.map": "/beta-code-converter-js/static/js/runtime-main.3ca1c283.js.map",
-    "static/css/2.2837d1e4.chunk.css": "/beta-code-converter-js/static/css/2.2837d1e4.chunk.css",
-    "static/js/2.088647b2.chunk.js": "/beta-code-converter-js/static/js/2.088647b2.chunk.js",
-    "static/js/2.088647b2.chunk.js.map": "/beta-code-converter-js/static/js/2.088647b2.chunk.js.map",
+    "static/css/2.4ca0951d.chunk.css": "/beta-code-converter-js/static/css/2.4ca0951d.chunk.css",
+    "static/js/2.391f2ccb.chunk.js": "/beta-code-converter-js/static/js/2.391f2ccb.chunk.js",
+    "static/js/2.391f2ccb.chunk.js.map": "/beta-code-converter-js/static/js/2.391f2ccb.chunk.js.map",
     "index.html": "/beta-code-converter-js/index.html",
-    "precache-manifest.bb5dc46ce4075ba0a6908f6cad4ccf84.js": "/beta-code-converter-js/precache-manifest.bb5dc46ce4075ba0a6908f6cad4ccf84.js",
+    "precache-manifest.44d5c07e19727b015d6bfb9c083fb95d.js": "/beta-code-converter-js/precache-manifest.44d5c07e19727b015d6bfb9c083fb95d.js",
     "service-worker.js": "/beta-code-converter-js/service-worker.js",
-    "static/css/2.2837d1e4.chunk.css.map": "/beta-code-converter-js/static/css/2.2837d1e4.chunk.css.map",
+    "static/css/2.4ca0951d.chunk.css.map": "/beta-code-converter-js/static/css/2.4ca0951d.chunk.css.map",
     "static/css/main.fc620751.chunk.css.map": "/beta-code-converter-js/static/css/main.fc620751.chunk.css.map",
-    "static/js/2.088647b2.chunk.js.LICENSE.txt": "/beta-code-converter-js/static/js/2.088647b2.chunk.js.LICENSE.txt",
+    "static/js/2.391f2ccb.chunk.js.LICENSE.txt": "/beta-code-converter-js/static/js/2.391f2ccb.chunk.js.LICENSE.txt",
     "static/media/index.css": "/beta-code-converter-js/static/media/tinos-latin-700italic.ec035d3e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.3ca1c283.js",
-    "static/css/2.2837d1e4.chunk.css",
-    "static/js/2.088647b2.chunk.js",
+    "static/css/2.4ca0951d.chunk.css",
+    "static/js/2.391f2ccb.chunk.js",
     "static/css/main.fc620751.chunk.css",
-    "static/js/main.ce5fa4f8.chunk.js"
+    "static/js/main.0f4860af.chunk.js"
   ]
 }
