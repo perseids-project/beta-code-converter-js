@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://perseids-project.github.io/beta-code-converter-js/",
   "dependencies": {
-    "beta-code-js": "^2.0.1",
+    "beta-code-js": "^3.0.0",
     "bootstrap": "^4.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-jest": "^23.20.0",
