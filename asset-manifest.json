@@ -6,20 +6,20 @@
     "runtime-main.js": "/beta-code/static/js/runtime-main.cf4464ac.js",
     "runtime-main.js.map": "/beta-code/static/js/runtime-main.cf4464ac.js.map",
     "static/css/2.4d6b9235.chunk.css": "/beta-code/static/css/2.4d6b9235.chunk.css",
-    "static/js/2.391f2ccb.chunk.js": "/beta-code/static/js/2.391f2ccb.chunk.js",
-    "static/js/2.391f2ccb.chunk.js.map": "/beta-code/static/js/2.391f2ccb.chunk.js.map",
+    "static/js/2.e5c2425d.chunk.js": "/beta-code/static/js/2.e5c2425d.chunk.js",
+    "static/js/2.e5c2425d.chunk.js.map": "/beta-code/static/js/2.e5c2425d.chunk.js.map",
     "index.html": "/beta-code/index.html",
-    "precache-manifest.3e32fcb444c226210e6fe240abf111af.js": "/beta-code/precache-manifest.3e32fcb444c226210e6fe240abf111af.js",
+    "precache-manifest.3858f627a8fbed3fa80dd21a2ca5e745.js": "/beta-code/precache-manifest.3858f627a8fbed3fa80dd21a2ca5e745.js",
     "service-worker.js": "/beta-code/service-worker.js",
     "static/css/2.4d6b9235.chunk.css.map": "/beta-code/static/css/2.4d6b9235.chunk.css.map",
     "static/css/main.fc620751.chunk.css.map": "/beta-code/static/css/main.fc620751.chunk.css.map",
-    "static/js/2.391f2ccb.chunk.js.LICENSE.txt": "/beta-code/static/js/2.391f2ccb.chunk.js.LICENSE.txt",
+    "static/js/2.e5c2425d.chunk.js.LICENSE.txt": "/beta-code/static/js/2.e5c2425d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/beta-code/static/media/tinos-latin-700italic.ec035d3e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.cf4464ac.js",
     "static/css/2.4d6b9235.chunk.css",
-    "static/js/2.391f2ccb.chunk.js",
+    "static/js/2.e5c2425d.chunk.js",
     "static/css/main.fc620751.chunk.css",
     "static/js/main.f3fb9927.chunk.js"
   ]
